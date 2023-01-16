@@ -1,14 +1,93 @@
-body{
-    margin: 0 auto;
-}
 
+/* HEADER */
 
 .header-up{
     background-color: black;
-    height: 5vh;    
+    height: 5vh;  
+    padding-top: 10px;  
 }
 
-img{
-    height: 10px;
+ul{
+    list-style: none;
 }
 
+.login{
+    background-color: #363636;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+/* JUMBOTRON */
+
+.jumbotron{
+    background-image: url(./img/jumbo-bg.png);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+    padding-top: 300px;
+    margin-bottom: 30px;
+}
+
+.banner{
+    width: 100%;
+}
+
+.buy{
+    background-color: #cd3d0f;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 10px;
+}
+
+.more-info{
+    background-color: #2d64e6;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 6px 10px;
+}
+
+/* PS5 */
+
+.d_none{
+    display: none;
+}
+
+/* IT TAKES TWO */
+
+.takes{
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* RESPONSIVE LG */
+
+@media screen and (min-width: 993px) {
+
+    .gadget{
+        width: 50%;
+    }
+    
+}
+
+
+
+/* RESPONSIVE MD */
+
+@media screen and (min-width: 769px) {
+
+    .d_none{
+        display: flex;
+    }
+
+    .gadget {
+        width: 60%;
+    }
+    
+}
