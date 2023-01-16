@@ -66,6 +66,10 @@ ul{
     background-position: center;
 }
 
+.title-takes{
+    font-size: 40px;
+}
+
 /* RESPONSIVE LG */
 
 @media screen and (min-width: 993px) {
