@@ -88,7 +88,18 @@ ul{
     padding: 6px 10px;
 }
 
+/* PS-NOW */
+.ps-now {
+    background-color: #161c3b;
+    height: 40vh;
+}
 
+.btn-now {
+    border: none;
+    color: black;
+    border-radius: 20px;
+    padding: 6px 10px;
+}
 
 
 
@@ -109,6 +120,12 @@ ul{
        height: 40vh; 
        object-fit: cover;  
     }
+
+    .img-now {
+        width: 430px;
+        height: 40vh;
+        object-fit: cover;
+    }
     
 
 }
@@ -125,6 +142,15 @@ ul{
     }
 
     .img-plus{
+        height: 40vh;
+        width: 500px;
+    }
+
+    .logo-now {
+        width: 50%;
+    }
+    
+    .img-now {
         height: 40vh;
         width: 500px;
     }
