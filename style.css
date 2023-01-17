@@ -126,7 +126,12 @@ ul{
         height: 40vh;
         object-fit: cover;
     }
-    
+
+    .icons{
+        width: 50%;
+        
+    }
+
 
 }
 /* RESPONSIVE LG */
