@@ -75,6 +75,18 @@ ul{
     background-color: #1f1f1f;
 }
 
+/* PS-PLUS */
+.ps-plus{
+    background-color: #bebcbb;
+    height: 40vh;
+}
+
+.btn-plus{
+    border: none;
+    color: #2d64e6;
+    border-radius: 20px;
+    padding: 6px 10px;
+}
 
 
 
@@ -91,7 +103,12 @@ ul{
     .gadget {
         width: 60%;
     }
-
+    
+    .img-plus {
+       width: 400px;
+       height: 40vh; 
+       object-fit: cover;  
+    }
     
 
 }
@@ -101,6 +118,15 @@ ul{
 
     .gadget{
         width: 50%;
+    }
+
+    .logo-plus{
+        width: 50%;
+    }
+
+    .img-plus{
+        height: 40vh;
+        width: 500px;
     }
     
 }
