@@ -1,6 +1,13 @@
 
 /* HEADER */
 
+header{
+    position: fixed;
+    width: 100%;
+    
+    
+}
+
 .header-up{
     background-color: black;
     height: 5vh;  
@@ -28,6 +35,7 @@ ul{
     background-position: center;  
     padding-top: 300px;
     margin-bottom: 30px;
+    
 }
 
 .banner{
@@ -173,11 +181,11 @@ ul li a{
     }
     
     .footer-logo{
-        width: 50%;
+        width: 30%;
     }
 
     .sie-logo{
-        width: 50%;
+        width: 30%;
     }
 }
 
