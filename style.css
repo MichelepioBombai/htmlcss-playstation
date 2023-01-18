@@ -101,6 +101,18 @@ ul{
     padding: 6px 10px;
 }
 
+/* FOOTER */
+
+footer{
+    background-color: #00439c;
+}
+
+
+ul li a{
+    list-style: none
+}
+
+
 
 
 /* RESPONSIVE MD */
@@ -160,6 +172,13 @@ ul{
         width: 500px;
     }
     
+    .footer-logo{
+        width: 50%;
+    }
+
+    .sie-logo{
+        width: 50%;
+    }
 }
 
 
